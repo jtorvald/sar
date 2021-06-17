@@ -19,6 +19,6 @@ func main() {
 	// replace first command line argument with the second
 	var re = regexp.MustCompile(find)
 	s := re.ReplaceAllString(string(source), replace)
-	fmt.Println(s)
+	fmt.Print(s)
 }
 
